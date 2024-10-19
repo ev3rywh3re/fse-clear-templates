@@ -1,13 +1,15 @@
 
 # Full Site Editor (FSE) - Trash Template Changes
 
-Please Note! This is an experimental WordPress plugin for Full Site Editing features. There really is no support. You are welcome to the idea.
+**Please Note!** This is an experimental WordPress plugin for Full Site Editing features. There really is no support. You are welcome to the idea.
 
 This plugin allows users to clear the Full Site Editor (FSE) template modifications, forcing WordPress to regenerate them. This is particularly useful for troubleshooting theme compatibility issues with FSE.
 
 ## Description
 
 When working with the Full Site Editor, sometimes template changes can cause conflicts or unexpected behavior, especially when switching between themes or during theme development. This plugin provides a simple way to reset the FSE templates to their default state, allowing you to start fresh and resolve any potential issues.
+
+**This should force WordPress to reload the files from your theme directory "templace" and "parts" folders. The .html files should be reloaded into WordPress for future Full SIte Editing modifications.** 
 
 ## Features
 
